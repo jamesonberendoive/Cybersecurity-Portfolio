@@ -5,7 +5,12 @@ ________________________________________________________________________________
 
  Projects:
  -------------------------------------------------------------------------------------------------
- Title: Install OpnSuse and build Vlans in  an OpnSense UTM Firewall
+ Title: Set OpnSense UTM Firewall
+ - Install OpnSense
+ - Create 4 Vlans ( Home, Work, Guest, Jump) in an OpnSense UTM Firewall
+ - Enable DHCP for each VLan interface.
+ - Set Firewall Rules for each Vlan and add Internet Acccess for each VLan.
+
 
 
 
