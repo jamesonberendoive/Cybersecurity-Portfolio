@@ -11,7 +11,10 @@ ________________________________________________________________________________
  - Enable DHCP for each VLan interface.
  - Set Firewall Rules for each Vlan and add Internet Acccess for each VLan.
 
-
+Title: Vulnerability Scan using Nessus
+- Download Tenable Nessus Essentials
+- Create a Nessus account using a temp email.
+- Create a Nessus Scan policy. 
 
 
 
@@ -24,4 +27,6 @@ ________________________________________________________________________________
 ✔ Linux Ubuntu
 ✔ OpnSense
 ✔ NMap
+✔ Nessus
+✔ Metasploit 3
 
