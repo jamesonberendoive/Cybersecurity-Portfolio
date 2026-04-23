@@ -48,3 +48,8 @@ https://<ubuntu-vm-ip>
 1. Accept any browser security warning due to the self-signed certificate.
 
 2. Log in using the credentials displayed at the end of the installation script.
+
+6. Installingthe Wazuh Agent (Windows Host)
+
+You can also deploy a new agent following the instructions in the Wazuh dashboard. Go to Agents management > Summary, and click on Deploy new agent.
+Then follow the steps on the Wazuh dashboard to deploy a new agent.
