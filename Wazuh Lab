@@ -10,3 +10,41 @@ Wazuh is a free, open-source security platform that offers:
 ● Vulnerability detection
 
 ● Real-time alerting
+
+2. Lab Architecture
+
+Component: Wazuh Manager Ubuntu (VirtualBox)
+Host: Ubuntu Virtual Box
+Role: Collects, analyzes, and stores data from
+agents
+
+Two Wazuh Agent - Windows 10 & Windows Server 2022 (host machine)
+
+Role: Sends logs and system events to the Wazuh
+manager
+
+Network Configuration:
+Use NAT Network Adapter in VirtualBox to place the Ubuntu server on the same network as the
+hosts . This allows access between hosts and guests.
+
+3. Installing the Wazuh Manager (Ubuntu)
+
+Download and Execute Wazuh Installation Script
+curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh && sudo bash
+./wazuh-install.sh -a -i
+● -a: Installs all components (manager, indexer.)
+
+● -i: Runs in interactive mode
+
+The script installs all required services and configures them automatically.
+
+4. Accessingthe Wazuh Dashboard
+
+After installation:
+Check your Ubuntu VM’s IP address:
+ifconfig
+On your Ubuntu server, open a browser and go to:
+https://<ubuntu-vm-ip>
+1. Accept any browser security warning due to the self-signed certificate.
+
+2. Log in using the credentials displayed at the end of the installation script.
